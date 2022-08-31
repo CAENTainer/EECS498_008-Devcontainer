@@ -1,0 +1,24 @@
+{
+  "image": "ekaprits/eecs498-008:latest",
+  "remoteUser": "root",
+  "extensions": [
+    "ms-azuretools.vscode-docker",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "ms-python.python",
+    "dafny-lang.ide-vscode"
+  ],
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "runArgs": [
+    "--rm",
+    "--pull",
+    "always",
+    "--platform",
+    "linux/amd64", // Apple Silicon Compatibility
+    "--hostname",
+    "🐳CAENTainer-498_008"
+  ],
+  "initializeCommand": "docker image prune -f",
+  "mounts": []
+}

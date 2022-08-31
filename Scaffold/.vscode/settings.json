@@ -1,0 +1,4 @@
+{
+    "dafny.compilerRuntimePath": "/home/dafnyserver/.dafny/dafny/Binaries/Dafny.dll",
+    "dafny.languageServerRuntimePath": "/home/dafnyserver/.dafny/dafny/Binaries/DafnyLanguageServer.dll"
+}
