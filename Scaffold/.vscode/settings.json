@@ -1,4 +1,12 @@
 {
     "dafny.compilerRuntimePath": "/home/dafnyserver/.dafny/dafny/Binaries/Dafny.dll",
-    "dafny.languageServerRuntimePath": "/home/dafnyserver/.dafny/dafny/Binaries/DafnyLanguageServer.dll"
+    "dafny.languageServerRuntimePath": "/home/dafnyserver/.dafny/dafny/Binaries/DafnyLanguageServer.dll",
+    "dafny.verificationTimeLimit": 20,
+    "dafny.compilerArgs": [
+        "/trace",
+        "/errorTrace:0",
+        "/compile:0",
+        "/verifyAllModules",
+        ""
+    ]
 }
